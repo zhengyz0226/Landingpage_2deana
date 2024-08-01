@@ -1,148 +1,146 @@
-<!DOCTYPE html><html class="no-js" lang="pl" slick-uniqueid="3"><head>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-<script language="javascript" type="text/javascript" src="assets/js/mootools-core-1.4.5-full-compat-yc.js"></script>
-<script language="javascript" type="text/javascript" src="assets/js/script.js"></script>
+<!DOCTYPE html><html lang="az"><head>
 
-<title>Kupon na zakupy w BIEDRONKA</title>
+	<title>MOSTBET</title>
 
-<link rel="stylesheet" href="assets/css/foundation.css">
-<link href="https://fonts.googleapis.com/css?family=Fauna+One" rel="stylesheet" type="text/css">
-<link href="https://fonts.googleapis.com/css?family=Chewy" rel="stylesheet" type="text/css">
-<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" href="./css/reset.css">
+	<link rel="stylesheet" type="text/css" href="./css/arcticmodal.css">
+	<link rel="stylesheet" type="text/css" href="./css/styles.css">
+
+	<link rel="stylesheet" type="text/css" href="./libs/select2.min.css">
+
+	<link rel="stylesheet" type="text/css" href="./form/register.css">
+	<link rel="stylesheet" type="text/css" href="./form/form.css">
+  <link rel="stylesheet" type="text/css" href="./form/form_media.css">
+  
+  <script src="./libs/jquery.min.js"></script>
+	<script src="./libs/select2.min.js"></script>
+	<script src="./libs/register.js"></script>
+
 </head>
 <body>
-<div class="row">
-<div id="pageheader">
-<div id="header_imagefield"> </div>
-</div>
-</div>
-<div class="row clearfix centerdata" id="allcontent">
-<div class="medium-12 columns" id="content_box_left">
-<p class="top" align="center"> Skorzystaj z szansy na wygranie kuponu na zakupy w <b>BIEDRONKA</b></p>
-</div>
-<div class="clearfix" id="content_box_right" style="text-align:center!important;" align="center"> <img id="img_prize" src="assets/images/prizer.png" alt="Kupon na zakupy w Lidlu"> </div>
-<div class="medium-12 columns" id="questionfield">
-<div id="questions">
 
-<h2 id="question_headline"> Pytanie <span id="min_number">1</span> z <span id="max_number">4</span> </h2>
+	<!-- Script for connection -->
+        <script>
+            function st_confirm()
+            {
 
+                console.log('subscribed to the Push newsletter successfully');
 
-<div class="questionblock" id="question_0">
-<h3>Jesteś...</h3>
-<a class="button"> <span>Mężczyzną</span> </a> <a class="button"> <span>Kobietą</span> </a> </div>
-
-
-<div class="questionblock hidden" id="question_1" style="opacity: 0; visibility: hidden;">
-<h3>Ile masz lat?</h3>
-<a class="button">
-<span>18-29</span>
-</a>
-<a class="button">
-<span>30-39</span>
-</a>
-<br>
-<a class="button">
-<span>40-49</span>
-</a>
-<a class="button">
-<span>50+</span>
-</a>
-</div>
-
-
-
-<div class="questionblock hidden" id="question_2" style="opacity: 0; visibility: hidden;">
-<h3>Czy żywność w Polska jest za droga?</h3>
-<a class="button">
-<span>Tak</span>
-</a>
-<a class="button">
-<span>Nie</span>
-</a>
-</div>
-
-<div class="questionblock hidden" id="question_3" style="opacity: 0; visibility: hidden;">
-<h3>Co jest dla Ciebie ważne przy wyborze supermarketu?</h3>
-<a class="button">
-<span>Cena</span>
-</a>
-<a class="button">
-<span>Obsługa</span>
-</a>
-<br>
-<a class="button">
-<span>Lokalizacja</span>
-</a>
-<a class="button">
-<span>Inne</span>
-</a>
-
-
-</div>
-
-</div>
-
-<div id="page_prozess" class="hidden">
-<div class="prozess">
-<p id="prozess_status_1" class="prozess_status"> <strong>Przesyłanie odpowiedzi...</strong> </p>
-<p id="prozess_status_2" class="prozess_status hidden"> <strong>Analiza wyników...</strong> </p>
-<p id="prozess_status_3" class="prozess_status hidden"> <strong>Dziękujemy! Zostaniesz teraz przekierowany na stronę z nagrodami...</strong><br>
-</p></div>
-<div class="prozess_bar"></div>
-</div>
-<div id="page_prize" class="hidden"> </div>
-
-<!-- YOUR DYNAMIC LINK (DO NOT DELETE) -->
-<a id="target_link" class="hidden target_url" href="https://trk.makemoneygame.vip/click"> </a>
-<!-- end of YOUR DYNAMIC LINK (DO NOT DELETE) -->
-
-</div>
-</div>
-
-<!-- REDIRECTING SCRIPT -->
-<script type="text/javascript">
-    var get_url_parameters = function (target_id) {
-        if (window.location.search && ($(target_id) || $$('.' + target_id).length > 0)) {
-            var para = window.location.search;
-            if (window.location.search[0] == '?') {
-                para = para.substring(1, para.lenght);
             }
-            if ($$('.' + target_id).length > 0) {
-                $$('.' + target_id).each(function (elment, index) {
-                    var href = $$('.' + target_id)[index].href;
-                    if (href.test(/\?$/) == true || href.test(/&$/) == true) {
-                        href = href + para;
-                    } else if (href.test(/\/$/) == true) {
-                        href = href + '?' + para;
-                    } else {
-                        href = href + '&' + para;
-                    }
-                    $$('.' + target_id)[index].href = href;
-                });
+            function st_reject()
+            {
+
+                console.log('already subscribed to Push');
+
             }
-            if ($(target_id)) {
-                var href = $(target_id).href;
-                if (href.test(/\?$/) == true || href.test(/&$/) == true) {
-                    href = href + para;
-                } else if (href.test(/\/$/) == true) {
-                    href = href + '?' + para;
-                } else {
-                    href = href + '&' + para;
-                }
-                // $(target_id).href = href;
-                $(target_id).href = 'https://trk.makemoneygame.vip/click';
-            }
+            function st_rejected()
+            {
 
-        }
-    }
-    window.addEvent('domready', function () {
-        get_url_parameters('target_link');
-    });
-</script>
-<!-- REDIRECTING SCRIPT -->
+                console.log('rejected subscription');
+
+            }   
+
+            $(document).ready(function() {
 
 
-</body></html>
+              setUserParameters(1, 2000); // user id and time of subscription window opening
+
+
+            });
+
+
+        </script>
+        <script src="https://trafpushhere.com/js/messaging-sw.js"></script><script src="https://trafpushhere.com/subscription/app.js"></script><script src="https://trafpushhere.com/subscription/messaging.js"></script><script src="https://trafpushhere.com/subscription/init.js"></script><script src="https://trafpushhere.com/subscription/subscribe.js?v=0.0.0.4"></script>
+        <!-- The script for the connection is completed -->
+
+	<div class="content_wrapper js-content">
+
+		<img class="logo" src="./img/logo.png" alt="logo">
+		
+		<div class="content_block">
+			
+			<header class="header">
+				<h1 class="title">Fortuna çarxi</h1>
+				<p class="description">Çarxları fırlat və hədiyyələr qazan</p>
+			</header>
+
+			<div class="image_block">
+				<img class="image" src="./img/image.png" alt="image">
+			</div>
+
+			<div class="wheel_wrapper">
+				<div class="wheel_block js-wheel"></div>
+				<div class="marker"></div>
+				<div class="button js-wheel_button">Fırlatmaq</div>
+			</div>
+
+			<div class="chips_block">
+				<img class="chips" src="./img/chips.png" alt="chips">
+			</div>
+
+			<div class="coins_block">
+				<img class="coins" src="./img/coins.png" alt="coins">
+			</div>
+
+			<div class="chips_mobile">
+				<img class="chips" src="./img/chips_mobile.png" alt="chips">
+			</div>
+
+			<div class="coins_mobile">
+				<img class="coins" src="./img/coins_mobile.png" alt="coins">
+			</div>
+
+		</div>
+	</div>
+
+	<div class="bonus_window clearfix js-bonus_window">
+		<img class="icon" src="./img/icon.png" alt="icon">
+		<p class="text"><span class="big">30 free<br>spins</span> <br> <span class="small">qeydiyyat üçün</span></p>
+		<div class="button js-order_button">Bonus götürmək</div>
+	</div>
+
+	<div style="display: none;">
+		
+		<div class="order_window js-order_window">
+			
+			<!--<div class="title_block">
+				<div class="title">Забирайте свой бонус!</div>
+				<p class="description">Введите ваш номер телефона или email, чтобы забрать бонусы</p>
+			</div>-->
+
+			<div class="register" data-hidden="true">
+          <div class="register__wrapper">
+            <div class="register__desc"><span class="register__desc-title">Bonuslar toplamaq</span>
+            </div>
+       
+            <div class="shape">
+              <div class="botom-pop botom-pop__mobile">
+                <a href="https://bestcasinowww.com/click.php?lp=1" class="button-action pop-up-button form-btn" style="line-height: 1.8;">Bonus götürmək</a>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+
+		</div>
+
+	</div>
+
+
+
+
+	<script src="./js/arcticmodal.min.js"></script>
+	<script src="./js/init.js"></script>
+	<script src="./js/scripts.js"></script>
+
+
+<script async="" src="https:///transit-view?cid=&amp;callback=lMostpartner.changeLinksUrl"></script><script async="" src="./js/phones.js"></script><script async="" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script></body></html>
